@@ -45,6 +45,13 @@ $ npm run dev
 - [fetcha](https://github.com/taylorhakes/fecha): Date Formatting
 - [md-to-json-converter](https://github.com/K-Sato1995/md-to-json-converter): Markdown to JSON converter
 
+
+## Deploy 
+
+SvelteKit projects can now be deployed with zero configuration on Vercel!!
+Just follow this [doc](https://vercel.com/changelog/sveltekit-projects-can-now-be-deployed-with-zero-configuration)!!
+
+
 ## Example
 - https://www.k-sato-0130.com/
 
