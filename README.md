@@ -1,8 +1,11 @@
 ## Sveltekit-blog-template
 
+<img width="1143" height="500" alt="image" src="https://user-images.githubusercontent.com/32632542/157347964-1986fe36-7991-4f9c-a86a-45e1c6805471.png">
+
+
 A minimalistic markdown based blog template built with [Sveltekit](https://kit.svelte.dev/).
 
-Check out the example [here]()
+Check out the example [here](https://sveltekit-blog-template-swart.vercel.app/)
 
 ## Comes with
 
