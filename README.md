@@ -1,6 +1,6 @@
 ## Sveltekit-blog-template
 
-a minimalistic markdown based blog template built with [Sveltekit](https://kit.svelte.dev/).
+A minimalistic markdown based blog template built with [Sveltekit](https://kit.svelte.dev/).
 
 Check out the example [here]()
 
@@ -19,17 +19,27 @@ Check out the example [here]()
 
 ## Getting started
 
+Just clone this repo
+
 ```
-git clone  my-blog
+git clone git@github.com:K-Sato1995/sveltekit-blog-template.git my-blog
 cd my-blog
 ```
 
+And run the commands below.
 
 ```
 $ npm install
 $ npm run dev
 ```
 
+
+## External Libraries this template uses
+
+- [remarkable](https://github.com/jonschlinkert/remarkable): Markdown Parser
+- [highlightjs](https://github.com/highlightjs/highlight.js/): Syntax highlighting
+- [fetcha](https://github.com/taylorhakes/fecha): Date Formatting
+- [md-to-json-converter](https://github.com/K-Sato1995/md-to-json-converter): Markdown to JSON converter
 
 ## Example
 - https://www.k-sato-0130.com/
