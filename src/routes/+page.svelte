@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let posts;
+  export let data;
   import { envVariables } from "$lib/envVariables";
   import { blogMetaData } from "$lib/blogMetaData";
   import { MetaTags } from "svelte-meta-tags";
@@ -46,10 +46,7 @@
 />
 
 <PostList>
-  {#each posts as post}
+  {#each data.body.posts as post}
     <PostItem {post} />
   {/each}
 </PostList>
-
-<style>
-</style>

@@ -1,5 +1,5 @@
 import { data } from "$data/posts.json";
 
-export function getPosts() {
+export function load() {
   return { body: { posts: data } };
 }
