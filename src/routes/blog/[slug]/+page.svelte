@@ -1,9 +1,15 @@
 <script lang="ts">
-  export let post: Post;
+  export let data: {
+    body: {
+      post: Post;
+    };
+  };
   import { MetaTags } from "svelte-meta-tags";
   import PostDetail from "$lib/components/PostDetail.svelte";
   import { blogMetaData } from "$lib/blogMetaData";
   import { envVariables } from "$lib/envVariables";
+
+  const post = data.body.post;
 
   const meta = {
     title: `${post.title} | ${blogMetaData.blogTitle}`,
